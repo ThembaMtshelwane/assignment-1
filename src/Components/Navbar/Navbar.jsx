@@ -7,7 +7,10 @@ function Navbar() {
   return (
     <nav>
       <ul>
-        <li>Logo</li >
+        <li>
+          <span className={styles.logoLetterD}>D</span>
+          <span className={styles.logoLetterZ}>Z</span>
+        </li >
         
         <li><AboutLink name='About'/></li>
         <li><ArticleLink/></li>
