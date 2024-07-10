@@ -1,8 +1,8 @@
 import React from 'react'
-import './button.css'
 import './subscribeButton.css'
+import Button from './Button'
 
 function SubscribeButton() {
-  return <button className="subscribeButton">Subscribe</button>
+  return <Button name="subscribe" />
 }
 export default SubscribeButton

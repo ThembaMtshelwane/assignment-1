@@ -3,4 +3,5 @@ button {
   border: 1px solid;
   background-color: white;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
