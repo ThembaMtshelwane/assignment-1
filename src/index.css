@@ -1,29 +1,24 @@
-*,*::after,*::before{
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;;
+  font-family: 'Inter', sans-serif;
 }
-
 
 :root {
   --primary-colour: black;
-  --secondary-colour: #cbdeec
-  --backdrop-colour:#f8f8f8
-
+  --secondary-colour: #cbdeec;
+  --backdrop-colour: #f8f8f8;
 }
-
-
 
 a {
-text-decoration: none;
-color: var(--s);
-
+  text-decoration: none;
+  color: var(--s);
 }
-
 
 body {
   min-width: 320px;
   min-height: 100vh;
 }
-

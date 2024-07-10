@@ -1,0 +1,8 @@
+.logoLetterD,
+.logoLetterZ {
+  font-size: 30px;
+}
+
+.logoLetterZ {
+  color: var(--secondary-colour);
+}
