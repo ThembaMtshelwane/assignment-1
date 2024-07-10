@@ -8,8 +8,11 @@ import Subscribe from './Components/Subscribe/Subscribe'
 function App() {
   return (
     <>
+    <section className='topsection'>
     <Navbar/>
     <Hero/>
+    </section>
+  
     <Article/>
     <About/>
     <Subscribe/>      
