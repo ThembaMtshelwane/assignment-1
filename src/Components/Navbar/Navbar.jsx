@@ -1,5 +1,6 @@
 import AboutLink from '../Links/AboutLink'
 import ArticleLink from '../Links/ArticleLink'
+import SubscribeButton from '../Buttons/SubscribeButton'
 // import styles from './navbar.module.css'
 import logoStyles from './logo.module.css'
 
@@ -19,7 +20,9 @@ function Navbar() {
           <ArticleLink />
         </li>
 
-        <li>Subscribe</li>
+        <li>
+          <SubscribeButton />
+        </li>
       </ul>
     </nav>
   )
