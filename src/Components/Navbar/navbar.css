@@ -1,0 +1,16 @@
+nav {
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linkList li {
+  margin: 0px 20px;
+}

@@ -1,7 +1,7 @@
 import AboutLink from '../Links/AboutLink'
 import ArticleLink from '../Links/ArticleLink'
 import SubscribeButton from '../Buttons/SubscribeButton'
-// import styles from './navbar.module.css'
+import './navbar.css'
 import logoStyles from './logo.module.css'
 
 function Navbar() {
@@ -14,10 +14,14 @@ function Navbar() {
         </li>
 
         <li>
-          <AboutLink name="About" />
-        </li>
-        <li>
-          <ArticleLink />
+          <ul className="linkList">
+            <li>
+              <AboutLink name="About" />
+            </li>
+            <li>
+              <ArticleLink />
+            </li>
+          </ul>
         </li>
 
         <li>
