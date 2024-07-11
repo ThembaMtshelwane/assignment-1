@@ -1,11 +1,11 @@
 import React from 'react'
 import './sectionHeader.css'
-function SectionHeader({name}) {
+function SectionHeader({name, style}) {
   return (
-    <>
+    <section className='section-header-container'>
         <h3>{name}</h3>
-        <span className='bar hero-section-bar'></span>
-    </>
+        <span className={`bar ${style}`}></span>
+    </section>
   )
 }
 

@@ -1,15 +1,27 @@
+.section-header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h3{
     font-size: 32px;
     font-weight: normal;
     margin-bottom: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 
 .bar{
     background-color: black;
- 
 }
 
 .hero-section-bar{
     height: 7px;
     width: 135px;
+}
+
+.sub-section-bar{
+    height: 2px;
+    width: 90px;
 }

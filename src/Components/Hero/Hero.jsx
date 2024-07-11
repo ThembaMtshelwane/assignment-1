@@ -6,8 +6,7 @@ function Hero() {
   return (
     <section className='heroContainer'>
     <h1>DRONOTICZ</h1>
-    <SectionHeader name='The Era of Drones'/>
-    <span className='bar'></span>
+    <SectionHeader name='The Era of Drones'style='hero-section-bar'/>
     </section>
   )
 }
