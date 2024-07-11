@@ -1,0 +1,25 @@
+.heroContainer{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 60px 0px;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 112px;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.bar{
+    background-color: black;
+    height: 7px;
+    width: 110px;
+    margin-top: 25px;
+}
