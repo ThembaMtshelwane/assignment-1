@@ -7,7 +7,7 @@ import './articlesSection.css'
 function ArticleSection() {
   return (
     <section className='articles-section'>
-        <SectionHeader name='LATEST ARTICLES'style='sub-section-bar'/>
+        <SectionHeader name='LATEST ARTICLES'style='sub-section-bar' id='articles'/>
         <ul className='articles-list'>
            {/* {articleInformation.map(article => {
                   <li>
