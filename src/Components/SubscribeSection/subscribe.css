@@ -1,0 +1,14 @@
+.subscribe-section{
+    border: 2px solid yellow;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* align-items: center; */
+}

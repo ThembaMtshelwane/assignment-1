@@ -3,7 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import AboutSection from './Components/AboutSection/AboutSection'
 import ArticlesSection from './Components/ArticlesSection/ArticlesSection'
-import Subscribe from './Components/Subscribe/Subscribe'
+import SubscribeSection from './Components/SubscribeSection/SubscribeSection'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
   
    <ArticlesSection/>
     <AboutSection/>
-    <Subscribe/>      
+    <SubscribeSection/>      
     </>
   )
 }

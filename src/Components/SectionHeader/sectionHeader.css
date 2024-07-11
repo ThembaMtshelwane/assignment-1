@@ -25,3 +25,7 @@ h3{
     height: 2px;
     width: 90px;
 }
+
+.sub-section-bar-none{
+    display: none;
+}
