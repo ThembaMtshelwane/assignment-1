@@ -10,16 +10,7 @@
 h1{
     font-size: 112px;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
-h3{
-    font-size: 32px;
-    font-weight: normal;
-}
 
-.bar{
-    background-color: black;
-    height: 7px;
-    width: 110px;
-    margin-top: 25px;
-}

@@ -1,10 +1,12 @@
 import React from 'react'
 import './hero.css'
+import SectionHeader from '../SectionHeader/SectionHeader'
+
 function Hero() {
   return (
     <section className='heroContainer'>
     <h1>DRONOTICZ</h1>
-    <h3>The Era of Drones</h3>
+    <SectionHeader name='The Era of Drones'/>
     <span className='bar'></span>
     </section>
   )
