@@ -1,8 +1,8 @@
 import React from 'react'
 import './sectionHeader.css'
-function SectionHeader({name, style,id=''}) {
+function SectionHeader({name, style}) {
   return (
-    <section className='section-header-container' id={id}>
+    <section className='section-header-container'>
         <h3>{name}</h3>
         <span className={`bar ${style}`}></span>
     </section>
