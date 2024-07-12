@@ -1,8 +1,8 @@
-import AboutLink from '../Links/AboutLink'
-import ArticleLink from '../Links/ArticleLink'
-import SubscribeButton from '../Buttons/SubscribeButton'
-import './navbar.css'
-import logoStyles from './logo.module.css'
+import AboutLink from "../Links/AboutLink";
+import ArticleLink from "../Links/ArticleLink";
+import SubscribeButton from "../Buttons/SubscribeButton";
+import "./navbar.css";
+import logoStyles from "./logo.module.css";
 
 function Navbar() {
   return (
@@ -14,14 +14,8 @@ function Navbar() {
         </li>
 
         <li>
-          <ul className="linkList">
-            <li>
-              <AboutLink name="About" />
-            </li>
-            <li>
-              <ArticleLink />
-            </li>
-          </ul>
+          <AboutLink name="About" />
+          <ArticleLink />
         </li>
 
         <li>
@@ -29,7 +23,7 @@ function Navbar() {
         </li>
       </ul>
     </nav>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
