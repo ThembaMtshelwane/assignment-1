@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
+  font-size: 16px;
 }
 
 :root {
@@ -21,9 +22,12 @@ a {
 
 p{
   font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--backdrop-colour);
 }

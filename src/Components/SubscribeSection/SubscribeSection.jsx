@@ -7,11 +7,11 @@ function SubscribeSection() {
   return (
     <section className='subscribe-section' id='subscribe'>
         <SectionHeader name='Subscribe'style='sub-section-bar-none' />
-        <h2>Sign-up to our newsletter</h2>
+        <p className='call-to-action'>Sign-up to our newsletter</p>
 
       <form>
         <input type="email" id="subscribe-input" placeholder='Your email' />
-        <button>Submit</button>
+        <button type='submit' className='submit-buttton'>Submit</button>
       </form>
    
     </section>

@@ -7,13 +7,13 @@
 h3{
     font-size: 32px;
     font-weight: normal;
-    margin-bottom: 50px;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
 
 .bar{
     background-color: black;
+    margin-top: 50px;
 }
 
 .hero-section-bar{
@@ -28,4 +28,5 @@ h3{
 
 .sub-section-bar-none{
     display: none;
+
 }
