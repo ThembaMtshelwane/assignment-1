@@ -1,5 +1,5 @@
 .subscribe-section {
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   height: 50vh;
 
   display: flex;
@@ -29,6 +29,7 @@ form label {
 .call-to-action {
   margin-bottom: 30px;
   font-weight: 500;
+  word-spacing: 0.2rem;
 }
 
 input {

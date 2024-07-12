@@ -1,15 +1,13 @@
 #root {
-  border: 2px solid red;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.topsection{
+.topsection {
   background-image: url(https://s3-alpha-sig.figma.com/img/f55e/0274/6b54b69c720e12821c2b25914c9fcdf9?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fuuUEHjugXcizffge9byRu33Pp7BkXGXXqrFxdMq-f55qQ-KIA0rQ-y-dVEivB5YcIvxQSqVBYJx3uxCYOoukLkjnCFmEwmUTvIoy9IWwzxESYVlkA3vD~FeReobgMBGfUMNz9pkZMYrLh6uBoed87EeQe2W3GOJ-Cv7we5zsC3d7bubUPASCQJY6KRk3CXuEtfFenpQNHwkgshsQx3hbF90NGRb8zkzwiRxr84kDlOu10XsnpsJlFmbywS2FO~WO9Mg0ye9Ki-TwmTWXMOnsoknJakPyyoeLYdMavHd2a8WhqenreNkXmqvy2pjLGoxrH9Lc5Vmy~lyWkUGllOrHg__);
-  background-position: center; 
-  background-repeat: no-repeat; 
-  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
-
 }
