@@ -11,23 +11,27 @@ footer {
 }
 
 .social-link {
-  /* display: block; */
   background-color: var(--secondary-colour);
-  width: 50px;
-  height: 50px;
-  margin: 10px;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 25px;
   border-radius: 50%;
 
-  /* to be removed */
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.linkedin-icon {
+  border-radius: 10px;
 }
 
 .fill-white {
   fill: white;
   background-color: transparent;
 }
+
 .nav-links {
   /* border: 2px solid; */
   display: flex;

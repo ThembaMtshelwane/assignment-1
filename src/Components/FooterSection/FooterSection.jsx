@@ -21,7 +21,7 @@ function FooterSection() {
             />
           </svg>
         </section>
-        <section className="social-link">
+        <section className="social-link linkedin-icon">
           <svg
             width="24"
             height="24"
