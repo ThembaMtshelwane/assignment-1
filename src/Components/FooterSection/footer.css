@@ -24,6 +24,10 @@ footer {
   justify-content: center;
 }
 
+.fill-white {
+  fill: white;
+  background-color: transparent;
+}
 .nav-links {
   /* border: 2px solid; */
   display: flex;
