@@ -1,8 +1,7 @@
-import React from 'react'
-import './button.css'
+import React from "react";
 
-function Button({ name , styles=''}) {
-  return <button className={styles}>{name}</button>
+function Button({ name, styles = "" }) {
+  return <button className={styles}>{name}</button>;
 }
 
-export default Button
+export default Button;

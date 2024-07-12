@@ -39,5 +39,6 @@ input {
 }
 
 .submit-buttton {
+  background-color: transparent;
   width: 30%;
 }

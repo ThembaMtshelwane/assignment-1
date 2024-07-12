@@ -1,5 +1,4 @@
 import Button from "./Button";
-import "./subscribeButton.css";
 
 function SubscribeButton() {
   return (

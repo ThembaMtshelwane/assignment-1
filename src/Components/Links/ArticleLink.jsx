@@ -1,11 +1,5 @@
-import styles from "./link.module.css";
-
 function ArticleLink() {
-  return (
-    <a href="#articles" className={styles.links}>
-      Articles
-    </a>
-  );
+  return <a href="#articles">Articles</a>;
 }
 
 export default ArticleLink;
