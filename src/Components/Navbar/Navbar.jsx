@@ -8,6 +8,7 @@ function Navbar() {
   return (
     <nav>
       <ul>
+        {/* Logo */}
         <li>
           <span className={logoStyles.logoLetterD}>D</span>
           <span className={logoStyles.logoLetterZ}>Z</span>

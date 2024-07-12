@@ -22,7 +22,8 @@ nav ul li:last-child {
 }
 
 nav ul li:nth-child(2) {
+  /* border: 2px solid blue; */
   display: flex;
   justify-content: space-around;
-  margin-right: 30px;
+  margin-left: 20px;
 }
