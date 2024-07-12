@@ -1,8 +1,13 @@
-import React from 'react'
-import Button from './Button'
-import './subscribeButton.css'
+import Button from "./Button";
+import "./subscribeButton.css";
 
 function SubscribeButton() {
-  return <Button name="subscribe" styles='subscribeButton' />
+  return (
+    <>
+      <a href="#subscribe">
+        <Button name="subscribe" styles="subscribeButton" />
+      </a>
+    </>
+  );
 }
-export default SubscribeButton
+export default SubscribeButton;
