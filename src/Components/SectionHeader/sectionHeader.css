@@ -1,32 +1,32 @@
-.section-header-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h3{
-    font-size: 32px;
-    font-weight: normal;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
+h3 {
+  font-size: 32px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
 }
 
-.bar{
-    background-color: black;
-    margin-top: 50px;
+.bar {
+  background-color: black;
+  margin-top: 50px;
 }
 
-.hero-section-bar{
-    height: 7px;
-    width: 135px;
+.hero-section-bar {
+  height: 7px;
+  width: 135px;
 }
 
-.sub-section-bar{
-    height: 2px;
-    width: 90px;
+.sub-section-bar {
+  height: 2px;
+  width: 80px;
+  margin-top: 30px;
 }
 
-.sub-section-bar-none{
-    display: none;
-
+.sub-section-bar-none {
+  display: none;
 }
