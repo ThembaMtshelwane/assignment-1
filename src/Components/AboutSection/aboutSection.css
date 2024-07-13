@@ -7,7 +7,7 @@
 
 .about-image {
   width: 50%;
-  background-image: url(https://s3-alpha-sig.figma.com/img/2f8b/eb36/7407642c5e239ea73f9a28197dea1eb6?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gUhJkOsZ6afUCuaUbYSs118ZZvuOxW2S1GSzpVETZlTc485VIK~Fq7Gb3MU84pGoOLFUXFvWvc~gpdPYaW6LsGSiyxmTcCoRcdIrYjLlXxX0REl2qQM4KaKNMsL334S3qCzarqb~W3yRg2phjQH1VR-lCwlJTeilS4Uk-rLI6Zp2vGPKijZKRHzPm-Dn0P4K~OufapSni1VU8pD5FdPpSExX-GjZ7mx1sK~VBmu3iAYynFGsRDuax49C6-A8t9QQft12IdkKlrHz7Q8k~snOBsaVLudHE2vgvWIN9EGLLFQJ2lS2emr2~SEhocNvac-iPw-O9HSJTitLDZeCqNcJpg__);
+  background-image: url('../../assets/images/drone8.png');
   background-size: cover;
   background-position: center;
 }
