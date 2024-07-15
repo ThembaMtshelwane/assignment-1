@@ -4,10 +4,14 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 50px 50px;
+  border: 2px solid red;
 }
 
 .social-links {
+  border: 2px solid;
   display: flex;
+  width: 30%;
+  max-width: 300px;
 }
 
 .social-link {
@@ -33,9 +37,10 @@ footer {
 }
 
 .nav-links {
-  /* border: 2px solid; */
+  border: 2px solid;
   display: flex;
   width: 30%;
+  width: 500px;
   justify-content: space-between;
   align-items: center;
 }
