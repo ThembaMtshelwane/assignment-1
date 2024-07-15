@@ -47,6 +47,7 @@ button {
   cursor: pointer;
   width: 45%;
   min-width: 150px;
+  border: 2px solid;
 }
 
 body {
