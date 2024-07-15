@@ -3,18 +3,19 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 50px;
-  border: 2px solid red;
+  padding: 50px;
+  /* border: 2px solid red; */
 }
 
 .social-links {
-  border: 2px solid;
+  /* border: 2px solid; */
   display: flex;
   width: 30%;
-  max-width: 300px;
+  min-width: 270px;
 }
 
 .social-link {
+  /* border: 2px solid red; */
   background-color: var(--secondary-colour);
   width: 40px;
   height: 40px;
@@ -37,10 +38,10 @@ footer {
 }
 
 .nav-links {
-  border: 2px solid;
+  /* border: 2px solid; */
   display: flex;
   width: 30%;
-  width: 500px;
+  min-width: 450px;
   justify-content: space-between;
   align-items: center;
 }
