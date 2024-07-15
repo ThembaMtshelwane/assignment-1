@@ -42,9 +42,11 @@ button {
   padding: 10px 20px;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+  text-align: center;
   background-color: transparent;
-  padding: 15px;
   cursor: pointer;
+  width: 45%;
+  min-width: 150px;
 }
 
 body {
