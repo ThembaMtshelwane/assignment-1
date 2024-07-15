@@ -4,7 +4,7 @@ function SubscribeButton() {
   return (
     <>
       <a href="#subscribe">
-        <Button name="subscribe" styles="subscribeButton" />
+        <Button name="subscribe" />
       </a>
     </>
   );

@@ -14,6 +14,7 @@ nav ul {
 
 nav ul li {
   width: 20%;
+  /* border: 2px solid red; */
 }
 
 nav ul li:last-child {
@@ -26,4 +27,5 @@ nav ul li:nth-child(2) {
   display: flex;
   justify-content: space-around;
   margin-left: 20px;
+  min-width: 250px;
 }
