@@ -24,8 +24,9 @@
 }
 
 .articles-list li {
-  /* border: 2px solid green; */
+  border: 2px solid green;
   width: 20%;
   min-width: 300px;
-  margin: 10px;
+  max-height: 380px;
+  margin: 15px;
 }
