@@ -12,7 +12,7 @@ export const articleInformation = [
   {
     imageURL: "./src/assets/images/drone4.png",
     imageName: "drone4",
-    title: "Improving Lives through Robotic Prosthetics",
+    title: "Improving Lives through Robotic Prosthetics ",
   },
   {
     imageURL: "./src/assets/images/drone6.png",
