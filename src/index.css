@@ -56,10 +56,11 @@ button {
 button:hover {
   background-color: var(--secondary-colour);
   border: none;
+  transform: scale(1.1);
 }
 
 body {
-  font-family: "Inter", "Times New Roman";
+  font-family: "Inter", sans-serif, Arial, Helvetica, sans-serif;
   min-width: 320px;
   min-height: 100vh;
   background-color: var(--backdrop-colour);
