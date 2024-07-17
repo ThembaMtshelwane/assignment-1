@@ -55,8 +55,8 @@ button {
 
 button:hover {
   background-color: var(--secondary-colour);
-  border: none;
-  transform: scale(1.1);
+  /* border: none;
+  transform: scale(1.1); */
 }
 
 body {
