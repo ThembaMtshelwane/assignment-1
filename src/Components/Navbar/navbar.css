@@ -54,8 +54,14 @@ nav ul {
     display: none;
     position: relative;
   }
+  nav {
+    /* border: 2px solid yellow; */
+    height: 10vh;
+    padding: 15px;
+  }
   .hamburuger-nav {
     display: flex;
+    padding: 5px 2px;
   }
   .sidebar {
     /* border: 2px solid red; */
