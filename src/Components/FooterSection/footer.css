@@ -8,7 +8,7 @@ footer {
 .social-links {
   /* border: 2px solid; */
   display: flex;
-  min-width: 300px;
+  /* min-width: 300px; */
   align-items: center;
 }
 
@@ -61,4 +61,28 @@ footer {
   min-width: 450px;
   justify-content: space-between;
   align-items: center;
+}
+
+@media only screen and (min-width: 620px) and (max-width: 800px) {
+  .social-link {
+    /* border: 2px solid red; */
+    width: 20%;
+    height: 25%;
+    margin: 7%;
+  }
+  .pinterest-icon,
+  .facebook-icon svg {
+    transform: scale(1.1);
+  }
+
+  .social-links {
+    /* border: 2px solid blue; */
+    width: 40%;
+    margin-right: 5%;
+  }
+  .nav-links {
+    /* border: 2px solid blue; */
+    width: 60%;
+    min-width: 250px;
+  }
 }

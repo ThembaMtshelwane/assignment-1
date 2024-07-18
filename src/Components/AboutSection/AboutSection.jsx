@@ -3,10 +3,10 @@ import "./aboutSection.css";
 
 function About() {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <section className="about-image"></section>
 
-      <section className="about-container" id="about">
+      <section className="about-text-container">
         <SectionHeader name="About Us" style="sub-section-bar" />
         <p className="about-paragraph">
           Welcome to our dronoticz, where innovation and technology converge to
