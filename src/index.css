@@ -23,6 +23,7 @@ html {
   --primary-colour: black;
   --secondary-colour: #cbdeec;
   --backdrop-colour: #f8f8f8;
+  --side-bar-blur: #cbdeec90;
 }
 
 a {
@@ -42,14 +43,15 @@ p {
 }
 
 button {
+  font-size: 24px;
   padding: 10px 20px;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
   text-align: center;
   background-color: transparent;
   cursor: pointer;
-  width: 45%;
-  min-width: 150px;
+  /* width: 45%; */
+  /* min-width: 150px; */
   border: 2px solid;
 }
 
@@ -66,15 +68,22 @@ body {
   background-color: var(--backdrop-colour);
 }
 
-@media only screen and (min-width: 620px) and (max-width: 800px) {
-  body {
-    /* background-color: red; */
-  }
+@media only screen and (max-width: 800px) {
   h1 {
     font-size: 6rem;
   }
 
-  a {
+  a,
+  button {
     font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
   }
 }

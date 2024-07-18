@@ -12,17 +12,17 @@ nav ul {
   justify-content: space-between;
 }
 
-nav ul li {
+.desktop-navbar li {
   width: 20%;
   /* border: 2px solid red; */
 }
 
-nav ul li:last-child {
+.desktop-navbar li:last-child {
   display: flex;
   justify-content: end;
 }
 
-nav ul li:nth-child(2) {
+.desktop-navbar li:nth-child(2) {
   /* border: 2px solid blue; */
   display: flex;
   justify-content: space-around;
@@ -30,9 +30,65 @@ nav ul li:nth-child(2) {
   min-width: 250px;
 }
 
+.hamburuger-nav {
+  display: none;
+}
+
+.hamburger-icon,
+.close-icon {
+  cursor: pointer;
+}
+
+.hamburger-icon {
+  transform: scale(2);
+}
 @media only screen and (min-width: 620px) and (max-width: 800px) {
   nav {
     /* background-color: yellow; */
     padding: 40px 25px;
+  }
+}
+
+@media only screen and (max-width: 619px) {
+  nav .desktop-navbar {
+    display: none;
+    position: relative;
+  }
+  .hamburuger-nav {
+    display: flex;
+  }
+  .sidebar {
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 50%;
+
+    background-color: var(--side-bar-blur);
+    backdrop-filter: blur(10px);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+  }
+  .mobile-navbar {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+  }
+  .mobile-navbar li {
+    border-bottom: 2px solid white;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  nav .desktop-navbar {
+    display: none;
+    position: relative;
+  }
+  .sidebar {
+    width: 100%;
   }
 }
