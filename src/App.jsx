@@ -9,7 +9,7 @@ import FooterSection from "./Components/FooterSection/FooterSection";
 function App() {
   return (
     <>
-      <section className="topsection" id="hero">
+      <section className="topsection container" id="hero">
         <Navbar />
         <Hero />
       </section>

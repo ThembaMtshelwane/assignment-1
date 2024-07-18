@@ -68,6 +68,12 @@ body {
   background-color: var(--backdrop-colour);
 }
 
+.container {
+  min-height: 700px;
+  max-height: 800px;
+  /* border: 2px solid; */
+}
+
 @media only screen and (max-width: 800px) {
   h1 {
     font-size: 6rem;
