@@ -7,7 +7,7 @@ function About() {
       id="about"
     >
       <section
-        className="md:w-[50%] h-full border-2 absolute md:static md:opacity-100 w-full blur-md opacity-30 -z-10"
+        className="md:w-[50%] h-full border-2 absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
         style={{
           backgroundImage: "url(drone8.png)",
           backgroundRepeat: "no-repeat",
