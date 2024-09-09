@@ -2,12 +2,23 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 function About() {
   return (
-    <section className="about-section container " id="about">
-      <section className="about-image"></section>
+    <section
+      className="flex h-screen w-full border-2 border-black relative"
+      id="about"
+    >
+      <section
+        className="md:w-[50%] h-full border-2 absolute md:static md:opacity-100 w-full opacity-30 -z-10"
+        style={{
+          backgroundImage: "url(drone8.png)",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      ></section>
 
-      <section className="about-text-container">
-        <SectionHeader name="About Us" style="sub-section-bar" />
-        <p className="about-paragraph">
+      <section className=" border-blue-500 border-2 md:w-[50%] flex flex-col items-center justify-center">
+        <SectionHeader name="About Us" style="" />
+        <p className="w-[90%] sm:w-[80%] md:w-[65%] text-justify mt-20">
           Welcome to our dronoticz, where innovation and technology converge to
           shape the future. We revolutionize industries and improve lives
           worldwide through our passion for pushing the boundaries of what
