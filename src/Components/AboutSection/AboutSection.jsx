@@ -3,7 +3,7 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 function About() {
   return (
     <section
-      className="flex h-screen w-full border-2 border-black relative"
+      className="flex h-screen w-full border-2 border-black relative bg-white z-20"
       id="about"
     >
       <section

@@ -7,7 +7,7 @@ import FooterSection from "./Components/FooterSection/FooterSection";
 
 function App() {
   return (
-    <>
+    <section className="bg-backdrop">
       <Navbar />
       <Hero />
 
@@ -16,7 +16,7 @@ function App() {
       <SubscribeSection />
 
       <FooterSection />
-    </>
+    </section>
   );
 }
 
