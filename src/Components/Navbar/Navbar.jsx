@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="border-2 border-green-500 p-5 sm:p-8 text-2xl uppercase">
+    <nav className="border-2 border-green-500 p-5 sm:p-8 text-2xl uppercase relative z-10">
       <ul className="border-2 border-red-400 flex items-center justify-between sm:hidden">
         <li>
           <a href="#hero" className="text-2xl">
