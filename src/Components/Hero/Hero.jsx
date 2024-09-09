@@ -3,7 +3,7 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 function Hero() {
   return (
     <section
-      className="h-screen w-full absolute top-0 left-0 flex flex-col justify-center items-center"
+      className="h-screen w-full flex flex-col justify-center items-center"
       style={{
         backgroundImage: "url(hero1.png)",
         backgroundRepeat: "no-repeat",
