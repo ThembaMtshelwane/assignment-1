@@ -19,9 +19,14 @@ function ArticleSection() {
     </li>
   ));
   return (
-    <section className="articles-section" id="articles">
-      <SectionHeader name="LATEST ARTICLES" style="sub-section-bar" />
-      <ul className="articles-list">{articlesList}</ul>
+    <section
+      className="flex flex-col border-2 border-red-400 my-20 items-center"
+      id="articles"
+    >
+      <SectionHeader name="LATEST ARTICLES" style="" />
+      <ul className="grid gap-4 sm:grid-cols-2 sm:p-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        {articlesList}
+      </ul>
     </section>
   );
 }
