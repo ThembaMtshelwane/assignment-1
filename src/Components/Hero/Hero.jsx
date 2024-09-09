@@ -1,4 +1,3 @@
-import "./hero.css";
 import SectionHeader from "../SectionHeader/SectionHeader";
 
 function Hero() {

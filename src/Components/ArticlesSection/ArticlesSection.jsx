@@ -6,7 +6,6 @@ import drone2 from "../../assets/images/drone2.png";
 import drone4 from "../../assets/images/drone4.png";
 import drone6 from "../../assets/images/drone6.png";
 
-import "./articlesSection.css";
 const images = [drone1, drone2, drone4, drone6];
 
 function ArticleSection() {

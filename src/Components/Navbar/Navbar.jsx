@@ -1,8 +1,6 @@
 import AboutLink from "../Links/AboutLink";
 import ArticleLink from "../Links/ArticleLink";
 import SubscribeButton from "../Buttons/SubscribeButton";
-import "./navbar.css";
-import logoStyles from "./logo.module.css";
 import { useState } from "react";
 import { IoMdMenu } from "react-icons/io";
 
@@ -17,8 +15,8 @@ function Navbar() {
       <ul className="desktop-navbar">
         <li>
           <a href="#hero">
-            <span className={logoStyles.logoLetterD}>D</span>
-            <span className={logoStyles.logoLetterZ}>Z</span>
+            <span className=''>D</span>
+            <span className=''>Z</span>
           </a>
         </li>
 
@@ -34,8 +32,8 @@ function Navbar() {
       <ul className="hamburuger-nav">
         <li>
           <a href="#hero">
-            <span className={logoStyles.logoLetterD}>D</span>
-            <span className={logoStyles.logoLetterZ}>Z</span>
+            <span className=''>D</span>
+            <span className=''>Z</span>
           </a>
         </li>
         <li className="hamburger-icon" onClick={handleClick}>

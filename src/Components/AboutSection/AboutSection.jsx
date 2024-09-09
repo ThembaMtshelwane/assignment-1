@@ -1,5 +1,4 @@
 import SectionHeader from "../SectionHeader/SectionHeader";
-import "./aboutSection.css";
 
 function About() {
   return (

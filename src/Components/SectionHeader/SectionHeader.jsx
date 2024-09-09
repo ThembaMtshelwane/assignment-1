@@ -1,4 +1,3 @@
-import "./sectionHeader.css";
 function SectionHeader({ name, style }) {
   return (
     <section className="section-header-container">

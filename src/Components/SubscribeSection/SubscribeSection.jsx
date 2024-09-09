@@ -1,6 +1,5 @@
 import SectionHeader from "../SectionHeader/SectionHeader";
 
-import "./subscribe.css";
 
 function SubscribeSection() {
   const handleSubmit = (event) => {

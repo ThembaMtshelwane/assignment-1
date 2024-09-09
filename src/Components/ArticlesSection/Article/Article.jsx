@@ -1,4 +1,3 @@
-import "./article.css";
 
 function Article({ imageURL, imageName, title }) {
   return (

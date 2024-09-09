@@ -1,7 +1,6 @@
 import AboutLink from "../Links/AboutLink";
 import ArticleLink from "../Links/ArticleLink";
 import SubscribeButton from "../Buttons/SubscribeButton";
-import "./footer.css";
 
 function FooterSection() {
   return (
