@@ -4,7 +4,7 @@ Welcome to **DRONOTICZ**, a website dedicated to showcasing the latest advanceme
 
 ## About the Project
 
-This project is a Single Page Application. It is a responsive website built using React and CSS, based on a (Figma design)[https://www.figma.com/design/MfpgDVuO84ynjmSGzCVpsO/Assignment-2?node-id=13-5&node-type=FRAME&t=sKFHA9H76qiTMgic-0]. The website emphasizes modern web development practices, utilizing Flexbox and the `position` property to create a dynamic and responsive layout.
+This project is a Single Page Application. It is a responsive website built using React and CSS, based on a [Figma design](https://www.figma.com/design/MfpgDVuO84ynjmSGzCVpsO/Assignment-2?node-id=13-5&node-type=FRAME&t=sKFHA9H76qiTMgic-0). The website emphasizes modern web development practices, utilizing Flexbox and the `position` property to create a dynamic and responsive layout.
 
 ## Features
 
