@@ -9,8 +9,8 @@ function Navbar() {
   };
 
   return (
-    <nav className="border-2 border-green-500 p-5 sm:p-8 text-2xl uppercase absolute z-10 w-full">
-      <ul className="border-2 border-red-400 flex items-center justify-between sm:hidden">
+    <nav className=" p-5 sm:p-8  uppercase absolute z-10 w-full">
+      <ul className=" flex items-center justify-between sm:hidden">
         <li>
           <a href="#hero" className="text-2xl">
             <span className="">D</span>
@@ -45,7 +45,7 @@ function Navbar() {
         </ul>
       </section>
 
-      <ul className="hidden sm:grid sm:grid-cols-[1fr_2fr_1fr] md:grid-cols-3 items-center border-2 border-yellow-500 sm:w-[90%] max-w-[1560px] mx-auto">
+      <ul className="hidden sm:grid sm:grid-cols-[1fr_2fr_1fr] md:grid-cols-3 items-center sm:w-[90%] max-w-[1560px] mx-auto">
         <li>
           <a href="#hero" className="text-4xl">
             <span className="">D</span>
@@ -53,19 +53,23 @@ function Navbar() {
           </a>
         </li>
 
-        <ul className="flex justify-between w-[90%] justify-self-center border-2 md:w-[100%] lg:max-w-[250px]">
+        <ul className="flex justify-between w-[90%] justify-self-center  md:w-[100%] lg:max-w-[250px]">
           <li className="" onClick={handleClick}>
-            <a href="#about">about</a>
+            <a href="#about" className="text-2xl">
+              about
+            </a>
           </li>
           <li className="" onClick={handleClick}>
-            <a href="#articles">articles</a>
+            <a href="#articles" className="text-2xl">
+              articles
+            </a>
           </li>
         </ul>
 
         <li className="ml-auto" onClick={handleClick}>
           <a
             href="#subscribe"
-            className="border-2 border-black px-4 md:px-8 lg:px-12 py-2"
+            className="border-2 border-black px-4 md:px-8 lg:px-12 py-2  text-2xl"
           >
             subscribe
           </a>

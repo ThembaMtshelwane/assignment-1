@@ -1,6 +1,6 @@
 function Article({ imageURL, imageName, title }) {
   return (
-    <section className="border-2 border-green-600 flex flex-col items-center h-[480px] min-w-[300px] max-w-[350px]">
+    <section className=" flex flex-col items-center h-[480px] min-w-[300px] max-w-[350px] shadow-card">
       <img
         src={imageURL}
         alt={imageName}

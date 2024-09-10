@@ -2,12 +2,9 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 function About() {
   return (
-    <section
-      className="flex h-screen w-full border-2 border-black relative bg-white z-20"
-      id="about"
-    >
+    <section className="flex h-screen w-full relative bg-white z-20" id="about">
       <section
-        className="md:w-[50%] h-full border-2 absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
+        className="md:w-[50%] h-full absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
         style={{
           backgroundImage: "url(drone8.png)",
           backgroundRepeat: "no-repeat",
@@ -16,7 +13,7 @@ function About() {
         }}
       ></section>
 
-      <section className=" border-blue-500 border-2 md:w-[50%] flex flex-col items-center justify-center">
+      <section className="  md:w-[50%] flex flex-col items-center justify-center">
         <SectionHeader name="About Us" style="" />
         <p className="w-[90%] sm:w-[80%] md:w-[65%] text-justify mt-20">
           Welcome to our dronoticz, where innovation and technology converge to
