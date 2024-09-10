@@ -34,7 +34,12 @@ function FooterSection() {
           </a>
         </section>
       </section>
-      <p className="mt-2">Created by ThembaMM3</p>
+      <p className="mt-2">
+        Created by{" "}
+        <a href="https://github.com/ThembaMtshelwane" target="_blank">
+          ThembaMM3
+        </a>
+      </p>
     </footer>
   );
 }
