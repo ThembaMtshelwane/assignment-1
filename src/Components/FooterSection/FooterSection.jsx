@@ -4,9 +4,9 @@ import { BsPinterest } from "react-icons/bs";
 
 function FooterSection() {
   return (
-    <footer className="h-[20vh] flex flex-col justify-center items-center bg-white">
-      <section className="flex flex-col h-[75%]  w-full max-w-[1560px] items-center justify-around mx-auto sm:w-[90%] md:flex-row-reverse md:justify-between">
-        <section className="flex-wrap uppercase flex items-center justify-around w-[80%] mx-auto sm:text-xl sm:min-w-[400px] md:w-[70%] md:max-w-[600px] md:mx-0">
+    <footer className="h-[30vh] md:h-[20vh] flex flex-col justify-center items-center bg-white">
+      <section className="relative flex flex-col h-[60%]  w-full max-w-[1560px] items-center justify-around mx-auto sm:w-[90%] md:flex-row-reverse md:justify-between">
+        <section className="gap-2 flex-wrap uppercase flex items-center justify-around w-[80%] mx-auto sm:text-xl sm:min-w-[400px] md:w-[70%] md:max-w-[600px] md:mx-0">
           <a href="#about" className="sm:text-2xl">
             about us
           </a>
@@ -34,6 +34,7 @@ function FooterSection() {
           </a>
         </section>
       </section>
+      <p className="mt-2">Created by ThembaMM3</p>
     </footer>
   );
 }
