@@ -4,7 +4,7 @@ function About() {
   return (
     <section className="flex h-screen w-full relative bg-white z-20" id="about">
       <section
-        className="md:w-[50%] h-full absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
+        className="md:w-[50%]  h-full absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
         style={{
           backgroundImage: "url(drone8.png)",
           backgroundRepeat: "no-repeat",
@@ -15,7 +15,7 @@ function About() {
 
       <section className="  md:w-[50%] flex flex-col items-center justify-center">
         <SectionHeader name="About Us" style="" />
-        <p className="w-[90%] sm:w-[80%] md:w-[65%] text-justify mt-20">
+        <p className="w-[90%] sm:w-[80%] md:w-[65%] text-justify mt-20 tracking-wide">
           Welcome to our dronoticz, where innovation and technology converge to
           shape the future. We revolutionize industries and improve lives
           worldwide through our passion for pushing the boundaries of what

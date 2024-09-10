@@ -5,12 +5,12 @@ import { BsPinterest } from "react-icons/bs";
 function FooterSection() {
   return (
     <footer className="h-[20vh] flex flex-col justify-center items-center bg-white">
-      <section className="flex flex-col h-[75%]  w-full max-w-[1560px] items-center justify-around mx-auto sm:w-[90%] sm:flex-row-reverse md:justify-between">
-        <section className=" uppercase flex items-center justify-between w-[100%] max-w-[350px]  mx-auto sm:text-xl sm:min-w-[400px] md:w-[60%] md:max-w-[600px] md:mx-0">
-          <a href="#" className="sm:text-2xl">
+      <section className="flex flex-col h-[75%]  w-full max-w-[1560px] items-center justify-around mx-auto sm:w-[90%] md:flex-row-reverse md:justify-between">
+        <section className="flex-wrap uppercase flex items-center justify-around w-[80%] mx-auto sm:text-xl sm:min-w-[400px] md:w-[70%] md:max-w-[600px] md:mx-0">
+          <a href="#about" className="sm:text-2xl">
             about us
           </a>
-          <a href="#" className="sm:text-2xl">
+          <a href="#articles" className="sm:text-2xl">
             article
           </a>
           <a
@@ -20,7 +20,7 @@ function FooterSection() {
             subscribe
           </a>
         </section>
-        <section className=" flex justify-around w-[50%] mx-auto my-2 sm:h-full items-center text-lg md:mx-0 md:w-[30%] max-w-[450px]">
+        <section className=" flex justify-around w-[80%] mx-auto my-2 sm:h-full items-center text-lg md:mx-0 md:w-[30%] max-w-[450px]">
           <a href="https://www.facebook.com/" target="_blank">
             <FaFacebook className="text-secondary scale-[2.5]" />
           </a>

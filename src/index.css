@@ -1,9 +1,27 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter-VariableFont_slnt,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
 @layer components {
   .menuItems {
-    @apply border-2 border-black p-4 cursor-pointer flex items-center justify-center  h-[120px] font-bold hover:scale-105;
+    @apply border-2 border-black p-4 cursor-pointer h-[120px] font-bold hover:scale-105;
+  }
+  .menuItemsLinks {
+    @apply h-full w-full flex justify-center items-center;
   }
 }

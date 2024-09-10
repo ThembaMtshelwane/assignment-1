@@ -6,7 +6,7 @@ function SubscribeSection() {
   };
   return (
     <section
-      className="h-[50vh] max-h-[500px] flex flex-col items-center pt-[100px] min-h-[400px]"
+      className="h-[55vh] flex flex-col items-center justify-center min-h-[400px]"
       id="subscribe"
     >
       <SectionHeader name="Subscribe" style="hidden" />

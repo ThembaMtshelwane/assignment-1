@@ -20,11 +20,11 @@ function ArticleSection() {
   ));
   return (
     <section
-      className="flex flex-col min-h-screen items-center justify-center my-20 xl:my-0"
+      className="flex flex-col min-h-screen items-center justify-center my-20 "
       id="articles"
     >
       <SectionHeader name="LATEST ARTICLES" style="" />
-      <ul className="grid gap-10 sm:grid-cols-2 sm:p-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <ul className="mt-20 grid gap-10 grid-cols-cards  w-[90%] justify-center">
         {articlesList}
       </ul>
     </section>

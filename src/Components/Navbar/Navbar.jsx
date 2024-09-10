@@ -12,35 +12,41 @@ function Navbar() {
     <nav className=" p-5 sm:p-8  uppercase absolute z-10 w-full">
       <ul className=" flex items-center justify-between sm:hidden">
         <li>
-          <a href="#hero" className="text-2xl">
+          <a href="#hero" className="text-3xl">
             <span className="">D</span>
             <span className="text-secondary">Z</span>
           </a>
         </li>
-        <li className="hamburger-icon" onClick={handleClick}>
+        <li className="text-3xl cursor-pointer" onClick={handleClick}>
           <IoMdMenu />
         </li>
       </ul>
       <section
-        className={`fixed w-full top-0 left-0 bg-secondary h-full border-2 border-yellow-400 sm:hidden transition-transform duration-500 ease-in-out ${
+        className={`fixed w-full top-0 left-0 bg-secondary text-white h-full  sm:hidden transition-transform duration-500 ease-in-out ${
           toggleNav
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0"
         }`}
       >
-        <ul className="border-red-400 border-2 h-[50vh] flex flex-col gap-10 p-2">
-          <li className="menuItems" onClick={handleClick}>
-            <IoClose className="scale-[2.5]" />
+        <ul className=" h-[50vh] flex flex-col gap-10 p-2">
+          <li className="menuItems h-[80px]" onClick={handleClick}>
+            <IoClose className="menuItemsLinks scale-[0.6] h-full" />
           </li>
           <li className="menuItems" onClick={handleClick}>
-            <a href="#about">about</a>
+            <a href="#about" className="menuItemsLinks">
+              about
+            </a>
           </li>
           <li className="menuItems" onClick={handleClick}>
-            <a href="#articles">articles</a>
+            <a href="#articles" className="menuItemsLinks">
+              articles
+            </a>
           </li>
 
           <li className="menuItems" onClick={handleClick}>
-            <a href="#subscribe">subscribe</a>
+            <a href="#subscribe" className="menuItemsLinks">
+              subscribe
+            </a>
           </li>
         </ul>
       </section>
