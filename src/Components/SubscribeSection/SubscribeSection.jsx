@@ -1,20 +1,32 @@
 import SectionHeader from "../SectionHeader/SectionHeader";
 
-import "./subscribe.css";
-
 function SubscribeSection() {
   const handleSubmit = (event) => {
     event.preventDefault();
   };
   return (
-    <section className="subscribe-section" id="subscribe">
-      <SectionHeader name="Subscribe" style="sub-section-bar-none" />
-      <form onSubmit={handleSubmit}>
-        <label>
-          <p className="call-to-action"> Sign-up to our newsletter</p>
-          <input type="email" id="subscribe-input" placeholder="Your email" />
+    <section
+      className="h-[55vh] flex flex-col items-center justify-center min-h-[400px]"
+      id="subscribe"
+    >
+      <SectionHeader name="Subscribe" style="hidden" />
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col w-[80%] max-w-[450px] justify-center items-center md:w-[85%] "
+      >
+        <label className="flex flex-col items-center w-full mb-8">
+          <p className="mb-6"> Sign-up to our newsletter</p>
+          <input
+            className="w-full p-5 border-none"
+            type="email"
+            id="subscribe-input"
+            placeholder="Your email"
+          />
         </label>
-        <button type="submit" className="submit-buttton">
+        <button
+          type="submit"
+          className="uppercase px-10 py-3 border-2 border-black"
+        >
           Submit
         </button>
       </form>

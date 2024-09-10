@@ -6,7 +6,6 @@ import drone2 from "../../assets/images/drone2.png";
 import drone4 from "../../assets/images/drone4.png";
 import drone6 from "../../assets/images/drone6.png";
 
-import "./articlesSection.css";
 const images = [drone1, drone2, drone4, drone6];
 
 function ArticleSection() {
@@ -20,9 +19,14 @@ function ArticleSection() {
     </li>
   ));
   return (
-    <section className="articles-section" id="articles">
-      <SectionHeader name="LATEST ARTICLES" style="sub-section-bar" />
-      <ul className="articles-list">{articlesList}</ul>
+    <section
+      className="flex flex-col min-h-screen items-center justify-center my-20 "
+      id="articles"
+    >
+      <SectionHeader name="LATEST ARTICLES" style="" />
+      <ul className="mt-20 grid gap-10 grid-cols-cards  w-[90%] justify-center">
+        {articlesList}
+      </ul>
     </section>
   );
 }

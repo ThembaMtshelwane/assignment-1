@@ -19,7 +19,7 @@ This project is a Single Page Application. It is a responsive website built usin
 
 ## Live Website
 
-- This is the live website https://assignment-1-iwx64aqbf-thembamtshelwanes-projects.vercel.app/
+- This is the live website [DRONOTICZ](https://dronoticz-projects.vercel.app/)
 
 ##  Contributing
 We welcome contributions! Please feel free to submit pull requests or open issues for any bugs or feature requests.

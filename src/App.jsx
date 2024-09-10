@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import AboutSection from "./Components/AboutSection/AboutSection";
@@ -8,18 +7,16 @@ import FooterSection from "./Components/FooterSection/FooterSection";
 
 function App() {
   return (
-    <>
-      <section className="topsection container" id="hero">
-        <Navbar />
-        <Hero />
-      </section>
+    <section className="bg-backdrop">
+      <Navbar />
+      <Hero />
 
       <ArticlesSection />
       <AboutSection />
       <SubscribeSection />
 
       <FooterSection />
-    </>
+    </section>
   );
 }
 
