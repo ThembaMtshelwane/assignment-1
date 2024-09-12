@@ -26,7 +26,7 @@ function FooterSection() {
           </a>
 
           <a href="https://www.linkedin.com/" target="_blank">
-            <FaLinkedin c className="text-secondary scale-[2.5]" />
+            <FaLinkedin className="text-secondary scale-[2.5]" />
           </a>
 
           <a href="https://za.pinterest.com/" target="_blank">
