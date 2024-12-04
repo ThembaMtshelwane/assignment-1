@@ -51,7 +51,7 @@ function Navbar() {
         </ul>
       </section>
 
-      <ul className="hidden sm:grid sm:grid-cols-[1fr_2fr_1fr] md:grid-cols-3 items-center sm:w-[90%] max-w-[1560px] mx-auto">
+      <ul className="hidden sm:grid  sm:grid-cols-[0.5fr_2fr_1fr] md:grid-cols-3 items-center sm:w-[90%] max-w-[1560px] mx-auto">
         <li>
           <a href="#hero" className="text-4xl">
             <span className="">D</span>
@@ -59,14 +59,14 @@ function Navbar() {
           </a>
         </li>
 
-        <ul className="flex justify-between w-[90%] justify-self-center  md:w-[100%] lg:max-w-[250px]">
+        <ul className="flex  justify-around w-[90%] justify-self-center  md:w-[100%] lg:max-w-[350px]">
           <li className="" onClick={handleClick}>
-            <a href="#about" className="text-2xl">
+            <a href="#about" className="text-lg lg:text-2xl">
               about
             </a>
           </li>
           <li className="" onClick={handleClick}>
-            <a href="#articles" className="text-2xl">
+            <a href="#articles" className="text-lg lg:text-2xl">
               articles
             </a>
           </li>
@@ -75,7 +75,7 @@ function Navbar() {
         <li className="ml-auto" onClick={handleClick}>
           <a
             href="#subscribe"
-            className="border-2 border-black px-4 md:px-8 lg:px-12 py-2  text-2xl"
+            className="mr-auto border-2 border-black px-4 md:px-8 lg:px-12 py-2 text-lg lg:text-2xl"
           >
             subscribe
           </a>

@@ -26,7 +26,7 @@ function FooterSection() {
           </a>
 
           <a href="https://www.linkedin.com/" target="_blank">
-            <FaLinkedin c className="text-secondary scale-[2.5]" />
+            <FaLinkedin className="text-secondary scale-[2.5]" />
           </a>
 
           <a href="https://za.pinterest.com/" target="_blank">
@@ -34,7 +34,12 @@ function FooterSection() {
           </a>
         </section>
       </section>
-      <p className="mt-2">Created by ThembaMM3</p>
+      <p className="mt-2">
+        Created by{" "}
+        <a href="https://github.com/ThembaMtshelwane" target="_blank">
+          ThembaMM3
+        </a>
+      </p>
     </footer>
   );
 }

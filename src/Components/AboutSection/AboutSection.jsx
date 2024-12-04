@@ -2,9 +2,12 @@ import SectionHeader from "../SectionHeader/SectionHeader";
 
 function About() {
   return (
-    <section className="flex h-screen w-full relative bg-white z-20" id="about">
+    <section
+      className="flex min-h-screen h-screen w-full relative bg-white z-20"
+      id="about"
+    >
       <section
-        className="md:w-[50%]  h-full absolute md:static md:opacity-100 w-full blur-md md:blur-none opacity-30 -z-10"
+        className="opacity-100 -z-10 absolute h-full  w-full blur-md md:w-[50%]  md:static md:opacity-100 md:blur-none "
         style={{
           backgroundImage: "url(drone8.png)",
           backgroundRepeat: "no-repeat",
